@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="busQeWeb.exe" version="1.0.0.6" publicKeyToken="b53018a113610a6c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="q_icon_48.jpg.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="busQeWeb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="busQeWeb.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="busQeWeb.exe" size="50160">
+      <assemblyIdentity name="busQeWeb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TX4TVMaSAEJeTGCy3B/KRwZXzVEtXrjGYMgsFPcd0HE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="busQeWeb.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="q_icon_48.jpg.ico" size="12014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ySFDjWp+51nVZZl/ImypaeRRnpQZQjBM3sh7en8rbSs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ISSAM2005\ADRIANO.SOUZA" issuerKeyHash="7f761345f3560fd0b595bedcb9a78528fdd6dbba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sd8honS7Pj7cRiwdLywkzWEmFNFou1n/dH0Z/2iK3LM=</DigestValue></Reference></SignedInfo><SignatureValue>Jh3ytVH3ClJyNCn0sSTa9Gt9pyF8noo+gUuOOokml/Q0Jife6JvN9eZ7trs4PWBBaqrC/2e4mdEc7jOWZBnn7NIdSGLggsp8hkSZ7qOZN34zzl8q1IJUOqSSJVEutINnjQEhfA9zWk1kr3keJ8Iv1qWRGAMytmQmpbwxb6XjW1c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rw5HJQnlBIl5ip6ZaQxVouVC57x4Hj2taDTwmy6Za93lPeOC5ht1/MNFpcrjDyIPdJCsdOxJpNhnvetVtC9JWnLoyk9U8+EEo+upIkzX/JtcpyOZAkTtuVIQXMD43laKFSz6T48t/LIvuQ5kBEjHfjsjTc4OmN8hZXeXGSJlaus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b3dc8a68ff197d74ff59bb68d1142661cd242c2f1d2c46dc3e3ebb74a221dfb1" Description="" Url=""><as:assemblyIdentity name="busQeWeb.exe" version="1.0.0.6" publicKeyToken="b53018a113610a6c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ISSAM2005\ADRIANO.SOUZA</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Tzrfi7nmaneeRzy9NE/uklTHXpZAzjgbJ4Dlw+pmzGg=</DigestValue></Reference></SignedInfo><SignatureValue>LIZqK5FkaoEkbXCUWXG2GZEscSg/u3lmYu14IGBvtTaUb9bqgbU/grw+3bwwpk1IYgD6WM1GQZttCC0cubFc8ohkqYtXDMF6vHAiXJAxmvjC+q9eCGoFK4WimU06RHntBVsebboiF3Suuz0hjofuLkkdn92vl8giQ8lHCxJsNBk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rw5HJQnlBIl5ip6ZaQxVouVC57x4Hj2taDTwmy6Za93lPeOC5ht1/MNFpcrjDyIPdJCsdOxJpNhnvetVtC9JWnLoyk9U8+EEo+upIkzX/JtcpyOZAkTtuVIQXMD43laKFSz6T48t/LIvuQ5kBEjHfjsjTc4OmN8hZXeXGSJlaus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQUJuMmQg1m75OkykVX/x2MTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ASQBTAFMAQQBNADIAMAAwADUAXABBAEQAUgBJAEEATgBPAC4AUwBPAFUAWgBBMB4XDTE4MDIwOTE0MTgyOVoXDTE5MDIwOTIwMTgyOVowOTE3MDUGA1UEAx4uAEkAUwBTAEEATQAyADAAMAA1AFwAQQBEAFIASQBBAE4ATwAuAFMATwBVAFoAQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArw5HJQnlBIl5ip6ZaQxVouVC57x4Hj2taDTwmy6Za93lPeOC5ht1/MNFpcrjDyIPdJCsdOxJpNhnvetVtC9JWnLoyk9U8+EEo+upIkzX/JtcpyOZAkTtuVIQXMD43laKFSz6T48t/LIvuQ5kBEjHfjsjTc4OmN8hZXeXGSJlausCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB1GX6PdtaJnZP5Sb48WOwY2jnY9cSuFkWFRa7JwcIv+qk5Bt3VIU5FCiLpdaM/nBDW5py/zWie95O9zihxjSLfXFuCF1iHlD+hXGwXHaar3rpL2LVKEWf/vzbxEqfCQxLyhAIa3KJn+pJQ6mb8I49nLYQWLYKpYZq0N/+2sclRPA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

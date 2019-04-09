@@ -1,0 +1,13 @@
+C:\projs\csharp\busQeWeb\busQeWeb\bin\Debug\busQeWeb.exe.config
+C:\projs\csharp\busQeWeb\busQeWeb\bin\Debug\busQeWeb.exe.manifest
+C:\projs\csharp\busQeWeb\busQeWeb\bin\Debug\busQeWeb.application
+C:\projs\csharp\busQeWeb\busQeWeb\bin\Debug\busQeWeb.exe
+C:\projs\csharp\busQeWeb\busQeWeb\bin\Debug\busQeWeb.pdb
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.Form1.resources
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.Properties.Resources.resources
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.csproj.GenerateResource.Cache
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.exe.manifest
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.application
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.exe
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.pdb
+C:\projs\csharp\busQeWeb\busQeWeb\obj\Debug\busQeWeb.csprojResolveAssemblyReference.cache
